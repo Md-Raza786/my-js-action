@@ -1,1 +1,12 @@
+name: "My JS Action"
+description: "Says hello with a name"
+
+inputs:
+  name:
+    description: "Name to greet"
+    required: true
+
+runs:
+  using: "node16"
+  main: "index.js"
 
